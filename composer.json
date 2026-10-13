@@ -1,0 +1,33 @@
+{
+    "name": "gatovel/mail",
+    "description": "Sistema modular e independente de envio de e-mails para aplicações PHP.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "mail",
+        "email",
+        "smtp",
+        "php",
+        "gatovel",
+        "framework"
+    ],
+    "require": {
+        "php": "^8.3",
+        "phpmailer/phpmailer": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gatovel\\Mail\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gatovel\\Mail\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require-dev": {
+        "vlucas/phpdotenv": "^5.7"
+    }
+}

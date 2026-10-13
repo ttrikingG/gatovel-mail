@@ -1,0 +1,9 @@
+/vendor/
+/.env
+/.env.*
+!/.env.example
+/composer.lock
+/tests/
+/.phpunit.cache
+/.idea/
+/.vscode/
