@@ -29,5 +29,8 @@
     "prefer-stable": true,
     "require-dev": {
         "vlucas/phpdotenv": "^5.7"
+    },
+    "suggest": {
+        "gatovel/queue": "Optional integration for asynchronous email delivery."
     }
 }
